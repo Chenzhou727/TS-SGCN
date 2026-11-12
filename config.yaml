@@ -1,0 +1,26 @@
+dataset: "nied3s"
+
+test_dataset: '/dataset/test_dataset.pt'
+
+model_path: "nied3s-10hz"
+test_model: "best_model.pt"
+n_mc: 50
+
+epochs: 150
+batch_size: 768
+lr: 0.001
+window: 80
+stride: 26
+n_fft: 128
+hop_length: 24
+fc: 26
+
+filters: [32,64]
+embedding_dims: 192
+num_heads: 4
+
+dropout: 0
+num_workers: 4
+seed: 42
+early_stopping: 10
+
