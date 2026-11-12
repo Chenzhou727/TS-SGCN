@@ -22,7 +22,7 @@ TS-SGCN/
 ├── nied*/ stead*/       # Checkpoint directories (one per experiment)
 ├── dataset/nied3s       #K-NET/KiK-net dataset，The "dataset/nied3s" directory contains the 3s version of the K-NET/KiK-net dataset,
                           which includes the waveform 3 seconds after the P-wave arrives and the waveform 1 second before the P-wave arrives.
-                          **Please modify the SeisDataloader.py/DataLoader accordingly to load this dataset.**
+                          ！！Please modify the SeisDataloader.py/DataLoader accordingly to load this dataset.
 └── predict_result/     # Prediction CSV exports from predict.py
 ```
 
