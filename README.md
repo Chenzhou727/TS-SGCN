@@ -2,7 +2,7 @@
 
 TS-SGCN is a PyTorch project for earthquake magnitude estimation from three-channel seismic waveforms. The model extracts features from both the **temporal domain** and the **frequency domain** (STFT spectrogram), builds a sparse weighted adjacency matrix via self-attention with a learned interaction mask, performs sparse graph convolution over waveform windows, and fuses the two branches with a gated GRU-based estimator to regress the earthquake magnitude.
 
-Datasets used: **NIED** (National Research Institute for Earth Science and Disaster Resilience, Japan) and **STEAD** (Stanford Earthquake Dataset), in various window lengths (3s–30s).
+Datasets used: **NIED** (K-NET/KiK-net dataset, 1996-2025, National Research Institute for Earth Science and Disaster Resilience, Japan) and **STEAD** (Stanford Earthquake Dataset), in various window lengths (3s–30s).
 
 ---
 
